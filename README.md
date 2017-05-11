@@ -47,6 +47,9 @@ get you started. Complete documentation is available at http://jabberd2.org/
 
 ## Build:
 
+    Only needed when ./configure script does not already exist:
+    % autoreconf --install
+
     % ./configure
     % make
     % make install
